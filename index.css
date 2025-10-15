@@ -1,0 +1,25 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column !important;
+}
+
+img{
+    width: 150px;
+    max-width: 100px;
+    height: auto;
+}
+.navbar{
+    background-color: #b4daff;
+}
