@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Jeff Bohn">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"  rel="stylesheet"
@@ -10,37 +11,34 @@
 
     <link rel="stylesheet" href="index.css">
 
-
-    <title>Route Pilot - AM Login</title>
+    <title>Route Pilot - AM Check-In</title>
 </head>
 <body>
 
     <div class="navbar-wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg shadow-sm">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Route Pilot</a>
+
+            <a class="navbar-brand" href="index.html">
+                <span>Route</span>
+                <span>Pilot</span>
+            </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <ul class="navbar-nav me-auto mb-2 mt-3 mt-lg-0 mb-lg-0 w-100">
+
+                <li class="nav-item ms-0 ms-lg-auto">
+                    <a class="nav-link text-primary" href="am-login.html">AM Check-In</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="am-login.html">AM-Login</a>
+                    <a class="nav-link text-primary" href="loadout.html">Loadout Strategy</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li> -->
+                <li class="nav-item">
+                   <a class="nav-link text-primary" href="#">On-Road Procedures</a>
+                </li>
 
               </ul>
 
@@ -51,11 +49,29 @@
 
     <div class="main my-5">
       <h1 class="fs-3 text-center mb-5 fw-bold text-primary">
-          Steps to Sign In to Amazon Flex
+          Your Day Starts Here: Flex Login, Verification, & Vehicle Inspection
       </h1>
 
       <div class="row justify-content-center">
           <div class="col-lg-8 col-xl-6">
+
+            <!-- Alert box  -->
+             <div class="alert alert-warning py-3 mb-4 rounded-3 shadow-sm">
+                <h5 class="alert-heading text-brand-primary fw-bold">⚠️ TIME CRITICAL: Immediate Vehicle Prep!</h5>
+                <p class="mb-2 small">
+                    From the moment you receive your **van bag (keys/device)**, you must move quickly to beat the loadout call. You have a narrow window to:
+                </p>
+                <ul class="mb-1 small">
+                    <li>**Start the Van** and **Turn on Hazards/Headlights.**</li>
+                    <li>**Roll Down Windows** (for communication/safety).</li>
+                    <li>**Log in** to Flex and **start the Vehicle Inspection** (which takes 90 seconds or more).</li>
+                </ul>
+                <p class="mb-0 small fw-bold text-danger">
+                    **Priority:** Get the inspection running *before* your driver wave is called to the loadout pad.
+                </p>
+            </div>
+
+             <!-- List Group -->
               <div class="list-group">
 
                   <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
@@ -124,6 +140,14 @@
               </div>
           </div>
       </div>  <!-- end row -->
+
+      <div class="row justify-content-center mt-5">
+          <div class="col-lg-8 col-xl-6 text-center">
+              <a href="loadout.html" class="btn bg-primary btn-lg fw-bold text-white shadow-sm">
+                  Continue to Loadout & Van Preparation ➡️
+              </a>
+          </div>
+      </div>
     </div>  <!-- end main -->
 
 

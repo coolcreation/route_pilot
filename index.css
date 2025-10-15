@@ -5,9 +5,38 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #212529;
     padding: 20px;
+}
+.text-primary{
+   color: #2b566b !important;
+}
+.bg-primary{
+   background-color: #2b566b !important;
+}
+.border-brand-primary {
+    border-color: #2b566b !important;
+}
+.alert-info{
+    background-color: #f0f8ff; 
+    border-left: 4px solid #2b566b;
+}
+.alert-warning{
+    background-color: #fff3e0; 
+    border-left: 5px solid #ff9800;
+}
+.home-page-card-main {
+    border-bottom: 5px solid #2b566b;
+}
+.home-page-card-1{
+    border-top: 5px solid #2b566b !important;
+}
+.home-page-card-2{
+    border-top: 5px solid #416e23 !important;
+}
+.home-page-card-3{
+    border-top: 5px solid #adb5bd !important;
 }
 
 .main{
@@ -20,6 +49,32 @@ img{
     max-width: 100px;
     height: auto;
 }
+.rounded{
+    border-radius: 23px !important;
+}
 .navbar{
-    background-color: #b4daff;
+    background-color: #f8fcff;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.1rem;
+}
+.navbar-brand span:nth-of-type(1){
+    display: block;
+    color: #2b566b !important;
+}
+.navbar-brand span:nth-of-type(2){
+    color: #416e23 !important;
+}
+/* .nav-item:hover{
+    color: white !important;
+    background-color: rgba(81, 162, 255, 0.507);
+} */
+.nav-link{
+    padding-left: 15px;
+}
+.nav-link:hover{
+    color: white !important;
+    background-color: #2b566b !important;
 }

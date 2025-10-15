@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jeff Bohn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"  rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+     crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Route Pilot - Loadout Strategy</title>
+</head>
+<body>
+
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-expand-lg shadow-sm">
+          <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <span>Route</span>
+                <span>Pilot</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mt-3 mt-lg-0 mb-lg-0 w-100">
+                
+                <li class="nav-item ms-0 ms-lg-auto">
+                    <a class="nav-link text-primary" href="am-login.html">AM Check-In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="loadout.html">Loadout Strategy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="#">On-Road Procedures</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <div class="container my-5">
+    <h1 class="fs-3 text-center mb-5 fw-bold text-primary">
+        Loadout Strategy: From Carts to Van Departure
+    </h1>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-6">
+            <div class="list-group">
+
+                <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
+                    <img src="images/loadout_images/loadout_images_1.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" alt="Flex App screen showing cart location and 'Start Scanning' button">
+                    <div class="flex-grow-1">
+                        <span class="badge bg-primary rounded-pill me-2">1</span>
+                        <strong class="fs-5">Locate Carts and Begin Scanning</strong>
+                        <p class="text-muted mt-2 mb-0">Navigate to the location shown and tap **Start Scanning** to link all carts to your route.</p>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
+                    <img src="images/loadout_images/loadout_images_2.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" alt="Flex App screen showing progress bar for scanning carts">
+                    <div class="flex-grow-1">
+                        <span class="badge bg-primary rounded-pill me-2">2</span>
+                        <strong class="fs-5">Scan All Cart Barcodes</strong>
+                        <p class="text-muted mt-2 mb-0">Scan the barcode on each cart to confirm all packages are accounted for. Tap **Continue** when complete.</p>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
+                    <img src="images/loadout_images/loadout_images_3.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" alt="Flex App screen showing sequenced delivery bags by number">
+                    <div class="flex-grow-1">
+                        <span class="badge bg-primary rounded-pill me-2">3</span>
+                        <strong class="fs-5">Load Bags by Sequence Number</strong>
+                        <p class="text-muted mt-2 mb-0">Load the delivery bags into your van **in the order listed** (e.g., 1A, 2A, 3A, etc.) to ensure bags are stacked correctly.</p>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
+                    <img src="images/loadout_images/loadout_images_4.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" alt="Flex App screen showing sequenced overflow packages">
+                    <div class="flex-grow-1">
+                        <span class="badge bg-primary rounded-pill me-2">4</span>
+                        <strong class="fs-5">Load and Prioritize Overflow Packages</strong>
+                        <p class="text-muted mt-2 mb-2">Scan and load the large, individually barcoded **Overflow Packages** into the van **in the order listed** on the Flex app.</p>
+                        
+                        <div class="alert alert-info py-2 my-2">
+                            <strong class="text-brand-primary">PILOT PRO-TIP (Loadout Strategy):</strong>
+                            <p class="mb-0 small">
+                                With only 20 minutes to load, **prioritize getting the first 10 oversize packages** up toward the front or near the sliding door for immediate access. You can fully organize the remaining overflow later during your route once the van has more space!
+                            </p>
+                        </div>
+                        <p class="text-muted mt-2 mb-0">Once all packages are loaded, swipe to **Finish Pickup** to complete the loadout process.</p>
+                    </div>
+                </div>
+
+                <div class="list-group-item d-flex flex-column flex-md-row align-items-center p-4 mb-3 rounded-3 shadow-sm bg-light">
+                    <img src="images/loadout_images/loadout_images_5.jpg" class="img-fluid rounded me-md-4 mb-3 mb-md-0" alt="Flex App map view showing route to first stop and 'Start Travel' button">
+                    <div class="flex-grow-1">
+                        <span class="badge bg-primary rounded-pill me-2">5</span>
+                        <strong class="fs-5">Begin Route Travel</strong>
+                        <p class="text-muted mt-2 mb-0">Confirm your vehicle is secured, check traffic, and tap **Start Travel** to begin navigation to your first stop.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>  <!-- end row -->
+    </div>  <!-- end main -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
