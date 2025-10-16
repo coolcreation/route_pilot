@@ -45,12 +45,12 @@ body{
 }
 
 img{
-    width: 150px;
+    width: 180px;
     max-width: 100px;
     height: auto;
 }
 .rounded{
-    border-radius: 23px !important;
+    border-radius: 22px !important;
 }
 .navbar{
     background-color: #f8fcff;
